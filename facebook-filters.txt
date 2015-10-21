@@ -1,0 +1,9 @@
+!Facebook uBlock filters to remove chat pane and other distracting UI elements
+
+facebook.com##._5j5u
+facebook.com##._5j5v
+facebook.com##._5q7o
+facebook.com##div#pagelet_ego_pane
+facebook.com##div#pagelet_rhc_footer
+facebook.com##div#pagelet_trending_tags_and_topics
+facebook.com##div.fbChatSidebar
