@@ -1,0 +1,13 @@
+!Miscellaneous uBlock filters for a more convenient web
+
+wired.com##div#social_tools
+
+!Makes it so the video description doesn't disappear as soon as the video ends
+www.youtube.com###watch-action-panels
+
+bay168.mail.live.com###RightRailContainer
+
+!http://www.thecomedynetwork.ca/shows/thedailyshow
+!This makes it so I don't have to scroll down the page every time I refresh the Daily Show.
+www.thecomedynetwork.ca##.top_nav
+www.thecomedynetwork.ca##.shows_mast_head
