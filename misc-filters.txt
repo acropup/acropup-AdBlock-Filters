@@ -11,3 +11,6 @@ bay168.mail.live.com###RightRailContainer
 !This makes it so I don't have to scroll down the page every time I refresh the Daily Show.
 www.thecomedynetwork.ca##.top_nav
 www.thecomedynetwork.ca##.shows_mast_head
+
+!Removes the signup dialog
+www.quora.com##div.vertical_alignment_wrapper
