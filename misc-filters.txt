@@ -4,6 +4,8 @@ wired.com##div#social_tools
 
 !Makes it so the video description doesn't disappear as soon as the video ends
 www.youtube.com###watch-action-panels
+!Hide the overlay of suggested videos that shows every time you pause the video
+www.youtube.com##div.ytp-pause-overlay
 
 bay168.mail.live.com###RightRailContainer
 
@@ -14,3 +16,8 @@ www.thecomedynetwork.ca##.shows_mast_head
 
 !Removes the signup dialog
 www.quora.com##div.vertical_alignment_wrapper
+pinterest.com##div.InlineSignup
+
+!Make Arduino help pages fit within a 960px-wide window
+arduino.cc###pagenav:style(margin-right: 0px)
+arduino.cc###pagetext:style(width: 697px !important)
