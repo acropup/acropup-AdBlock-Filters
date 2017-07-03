@@ -7,3 +7,6 @@ facebook.com##div#pagelet_ego_pane
 facebook.com##div#pagelet_rhc_footer
 facebook.com##div#pagelet_trending_tags_and_topics
 facebook.com##div.fbChatSidebar
+
+!Hide facebook news feed entirely!
+www.facebook.com##div[id^=topnews]:style(visibility: hidden !important)
