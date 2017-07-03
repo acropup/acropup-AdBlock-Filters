@@ -1,0 +1,12 @@
+!Reduce wasted space in Google Hangouts conversations
+google.com##.tk.pj:style(padding-right: 0px; padding-left: 1px;)
+google.com##.tk.Sn:style(padding-right: 0px; padding-left: 33px;)
+google.com##.tk:style(padding: 0px;)
+google.com##.kT:style(height: 2px;)
+google.com##.ci
+google.com##.TlvAYc:style(font-size: 10px; height: 10px; padding-top: 0px;)
+!Shrink header of Hangouts window
+google.com##.Ik:style(height: 24px;)
+google.com##.xB > div:style(height: 24px;)
+google.com##.vV:style(padding-top: 0px; padding-right: 0px;)
+google.com##.EV:style(padding-top: 0px; height: 26px;)
