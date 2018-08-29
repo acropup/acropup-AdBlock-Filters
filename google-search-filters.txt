@@ -1,0 +1,15 @@
+!Reduce horizontal padding on Google search results so it works better on 1/2 of a 1920x1080 screen
+
+www.google.com,www.google.ca###top_nav:style(min-width: 800px !important)
+www.google.com,www.google.ca###center_col:style(margin-left: 2px !important)
+www.google.com,www.google.ca###rhs:style(margin-left: 640px !important)
+www.google.com,www.google.ca##div.sfbg:style(min-width: 600px !important)
+www.google.com,www.google.ca##div.sfbgg:style(min-width: 600px !important)
+www.google.com,www.google.ca##div.sfbgx:style(min-width: 600px !important)
+www.google.com,www.google.ca###rhscol:style(min-width: 600px !important)
+www.google.com,www.google.ca###fbar:style(min-width: 600px !important)
+www.google.com,www.google.ca###appbar:style(min-width: 600px !important)
+www.google.com,www.google.ca###searchform:style(min-width: 600px !important)
+www.google.com,www.google.ca##.hdtb-mitem:first-child:style(margin-left: 2px !important)
+www.google.com,www.google.ca###slim_appbar:style(margin-left: 2px !important)
+www.google.com,www.google.ca##.B4GxFc:style(margin-left: 16px !important)
