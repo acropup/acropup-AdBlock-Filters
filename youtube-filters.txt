@@ -1,0 +1,16 @@
+!YouTube uBlock filters for decluttering and fitting within a 960px-wide window (half of 1920x1080).
+
+!Make youtube sentiment bar (bar graph of likes vs dislikes) stand out more,
+!so that I'm more likely to notice that a video is bad before watching it.
+www.youtube.com###sentiment.ytd-video-primary-info-renderer.style-scope:style(padding-top: 2px !important;)
+www.youtube.com###container.ytd-sentiment-bar-renderer.style-scope:style(background-color: #00f3ff !important; height: 6px !important;)
+www.youtube.com###like-bar.ytd-sentiment-bar-renderer:style(height: 6px !important;)
+
+!Left-align videos playing in youtube
+www.youtube.com##.player-width:style(left: 0px !important; margin-left: 0% !important)
+
+!Make youtube UI narrower so that I can see the whole width of suggested videos in a 960px-wide window.
+www.youtube.com###watch7-content:style(width: 50% !important)
+www.youtube.com###watch7-sidebar:style(margin-left: 50%)
+www.youtube.com##.content-alignment:style(min-width: 940px !important)
+www.youtube.com##.yt-base-gutter:style(min-width: 900px; padding-left: 0px; padding-right: 0px;)
