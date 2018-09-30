@@ -1,0 +1,6 @@
+!Reduce minimum width on github.com so it works better on 1/2 of a 1920x1080 screen
+
+github.com##body:style(min-width: 930px !important)
+github.com##.container:style(width: 916px !important)
+github.com##li.pinned-repo-item:style(width: 330px !important)
+github.com##.ajax-error-message:style(width: 916px !important; margin-left: -460px !important)
