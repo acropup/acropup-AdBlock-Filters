@@ -1,13 +1,18 @@
 !YouTube uBlock filters for decluttering and fitting within a 960px-wide window (half of 1920x1080).
 
+!Prevent the video description from disappearing as soon as the video ends
+www.youtube.com###watch-action-panels
+!Hide the overlay of suggested videos that shows every time you pause the video
+www.youtube.com##div.ytp-pause-overlay
+!Remove the "Scroll for details" text on fullscreen youtube
+youtube.com##.ytp-fullerscreen-edu-button
+
 !Make youtube sentiment bar (bar graph of likes vs dislikes) stand out more,
 !so that I'm more likely to notice that a video is bad before watching it.
 www.youtube.com###sentiment.ytd-video-primary-info-renderer.style-scope:style(padding-top: 2px !important;)
 www.youtube.com###container.ytd-sentiment-bar-renderer.style-scope:style(background-color: #00f3ff !important; height: 6px !important;)
 www.youtube.com###like-bar.ytd-sentiment-bar-renderer:style(height: 6px !important;)
 
-!Remove the "Scroll for details" text on fullscreen youtube
-youtube.com##.ytp-fullerscreen-edu-button
 
 !Left-align videos playing in youtube
 www.youtube.com##.player-width:style(left: 0px !important; margin-left: 0% !important)
