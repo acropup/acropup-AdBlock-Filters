@@ -6,6 +6,9 @@ www.youtube.com###sentiment.ytd-video-primary-info-renderer.style-scope:style(pa
 www.youtube.com###container.ytd-sentiment-bar-renderer.style-scope:style(background-color: #00f3ff !important; height: 6px !important;)
 www.youtube.com###like-bar.ytd-sentiment-bar-renderer:style(height: 6px !important;)
 
+!Remove the "Scroll for details" text on fullscreen youtube
+youtube.com##.ytp-fullerscreen-edu-button
+
 !Left-align videos playing in youtube
 www.youtube.com##.player-width:style(left: 0px !important; margin-left: 0% !important)
 
