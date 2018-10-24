@@ -2,11 +2,6 @@
 
 wired.com##div#social_tools
 
-!Makes it so the video description doesn't disappear as soon as the video ends
-www.youtube.com###watch-action-panels
-!Hide the overlay of suggested videos that shows every time you pause the video
-www.youtube.com##div.ytp-pause-overlay
-
 bay168.mail.live.com###RightRailContainer
 
 !http://www.thecomedynetwork.ca/shows/thedailyshow
