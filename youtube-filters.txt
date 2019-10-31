@@ -13,6 +13,26 @@ www.youtube.com###sentiment.ytd-video-primary-info-renderer.style-scope:style(pa
 www.youtube.com###container.ytd-sentiment-bar-renderer.style-scope:style(background-color: #00f3ff !important; height: 6px !important;)
 www.youtube.com###like-bar.ytd-sentiment-bar-renderer:style(height: 6px !important;)
 
+! -- Avoid truncating video titles after two lines --
+! --- For the related videos list on a video page ---
+!Show up to four lines of video title text for suggested videos on Youtube instead of only two lines
+youtube.com###video-title.ytd-compact-video-renderer:style(max-height: 6.4rem !important; -webkit-line-clamp: 4 !important; margin: 0 !important;)
+!More horizontal room for video title
+youtube.com###secondary.ytd-watch-flexy:style(padding-right: 0 !important; width: calc(var(--ytd-watch-flexy-sidebar-width) + 24px) !important;)
+youtube.com##.metadata.ytd-compact-video-renderer:style(padding-right: 0 !important;)
+!move the 'New' badge to the right of the view count
+youtube.com##ytd-badge-supported-renderer.ytd-compact-video-renderer:style(position: absolute; bottom: 0rem !important; left: 31rem !important;)
+!Move vertical ellipsis menu button to bottom right corner
+youtube.com##ytd-menu-renderer.ytd-compact-video-renderer:style(top: unset !important; bottom: 10px;)
+! --- For the grids of videos on the homepage, channel pages, etc. ---
+!Show up to four lines of video title text for suggested videos on Youtube instead of only two lines
+youtube.com###video-title.ytd-grid-video-renderer:style(max-height: 6.4rem !important; -webkit-line-clamp: 4 !important;)
+!More horizontal room for video title
+youtube.com###meta.ytd-grid-video-renderer:style(padding-right: 6px !important;)
+!Reduce margins around video title
+youtube.com###meta.ytd-grid-video-renderer > h3:style(margin: 4px 0 4px !important;)
+!Move vertical ellipsis menu button to bottom right corner
+youtube.com##ytd-menu-renderer.ytd-grid-video-renderer:style(top: unset !important; bottom: 2px;)
 
 !Left-align videos playing in youtube
 www.youtube.com##.player-width:style(left: 0px !important; margin-left: 0% !important)
