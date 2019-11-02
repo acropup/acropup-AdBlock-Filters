@@ -34,6 +34,10 @@ youtube.com###meta.ytd-grid-video-renderer > h3:style(margin: 4px 0 4px !importa
 !Move vertical ellipsis menu button to bottom right corner
 youtube.com##ytd-menu-renderer.ytd-grid-video-renderer:style(top: unset !important; bottom: 2px;)
 
+!For the videowall of suggested videos after the playing video has finished, show titles and other details by default, and hide them when hovered. YouTube normally hides the text unless hovered.
+youtube.com##.ytp-videowall-still-info-content:style(opacity: 1 !important;)
+youtube.com##.ytp-videowall-still:focus .ytp-videowall-still-info-content, .ytp-videowall-still:hover .ytp-videowall-still-info-content, .ytp-videowall-still.ytp-videowall-show-text .ytp-videowall-still-info-content:style(opacity: 0 !important;)
+
 !Left-align videos playing in youtube
 www.youtube.com##.player-width:style(left: 0px !important; margin-left: 0% !important)
 
