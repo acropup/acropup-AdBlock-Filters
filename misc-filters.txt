@@ -11,6 +11,7 @@ www.thecomedynetwork.ca##.shows_mast_head
 
 !Removes the signup dialog
 www.quora.com##div.vertical_alignment_wrapper
+www.quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 pinterest.com##div.InlineSignup
 
 !Make Arduino help pages fit within a 960px-wide window
