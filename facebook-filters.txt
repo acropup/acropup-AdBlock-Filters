@@ -1,14 +1,12 @@
-!Facebook uBlock filters to remove chat pane and other distracting UI elements
+!Facebook uBlock filters to remove chat pane and other distracting UI elements, especially on homepage
 
-facebook.com##._5j5u
-facebook.com##._5j5v
-facebook.com##._5q7o
-facebook.com##div#pagelet_ego_pane
-facebook.com##div#pagelet_rhc_footer
-facebook.com##div#pagelet_trending_tags_and_topics
-facebook.com##div#stories_pagelet_below_composer
-facebook.com##div.pagelet#video_chats
-facebook.com##div.fbChatSidebar
-
-!Hide facebook news feed entirely!
-www.facebook.com##div[id^=topnews]:style(visibility: hidden !important)
+! 2021-03-12 facebook.com hide most distractions on homepage, including feed and contact list
+! Hide facebook news feed entirely!
+www.facebook.com##div[role="feed"]
+www.facebook.com##div[data-pagelet="Stories"]
+www.facebook.com##div[data-pagelet="VideoChatHomeUnit"]
+www.facebook.com##div[role="complementary"]
+! Remove top banner icons for vidoes, games, marketplace, groups, etc. You can get to them from the homepage sidebar
+www.facebook.com##div[role="banner"] div[role="navigation"] > ul
+! Facebook videos are complete trash, and they lure you with notifications even when there aren't new videos from friends
+www.facebook.com##a[href="https://www.facebook.com/watch/"]
