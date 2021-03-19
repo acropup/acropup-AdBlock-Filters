@@ -5,7 +5,7 @@
 www.facebook.com##div[role="feed"][class=""]
 www.facebook.com##div[data-pagelet="Stories"]
 www.facebook.com##div[data-pagelet="VideoChatHomeUnit"]
-www.facebook.com##div[role="complementary"]
+www.facebook.com##div[data-pagelet="RightRail"]
 ! Remove top banner icons for vidoes, games, marketplace, groups, etc. You can get to them from the homepage sidebar
 www.facebook.com##div[role="banner"] div[role="navigation"] > ul
 ! Facebook videos are complete trash, and they lure you with notifications even when there aren't new videos from friends
