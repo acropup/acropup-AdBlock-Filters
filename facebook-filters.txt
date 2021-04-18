@@ -4,7 +4,7 @@
 ! Hide facebook news feed entirely!
 www.facebook.com##div[role="feed"][class=""]
 www.facebook.com##div[data-pagelet="Stories"] > div[role="region"]
-www.facebook.com##div[data-pagelet="VideoChatHomeUnit"]
+www.facebook.com##div[data-pagelet^="VideoChatHomeUnit"]
 www.facebook.com##div[data-pagelet="RightRail"]
 ! Remove top banner icons for vidoes, games, marketplace, groups, etc. You can get to them from the homepage sidebar
 www.facebook.com##div[role="banner"] div[role="navigation"] > ul
