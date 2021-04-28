@@ -2,7 +2,7 @@
 
 ! 2021-03-12 facebook.com hide most distractions on homepage, including feed and contact list
 ! Hide facebook news feed entirely!
-www.facebook.com##div[role="feed"][class=""]
+www.facebook.com###ssrb_feed_start+div[role="feed"]
 www.facebook.com##div[data-pagelet="Stories"] > div[role="region"]
 www.facebook.com##div[data-pagelet^="VideoChatHomeUnit"]
 www.facebook.com##div[data-pagelet="RightRail"]
