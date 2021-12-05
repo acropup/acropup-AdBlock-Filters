@@ -1,5 +1,6 @@
 !Reduce horizontal padding on Google search results so it works better on 1/2 of a 1920x1080 screen
 
+www.google.com,www.google.ca##.GyAeWb, .appbar, .GLcBOb:style(margin-left: unset !important)
 !search results
 www.google.com,www.google.ca###center_col:style(margin-left: 20px !important)
 !header
