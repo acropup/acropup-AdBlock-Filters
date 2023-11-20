@@ -14,6 +14,43 @@ www.quora.com##div.vertical_alignment_wrapper
 www.quora.com##body.signup_wall_prevent_scroll #root:style(filter: none !important;)
 pinterest.com##div.InlineSignup
 
+! 2021-03-22 https://www.quora.com
+www.quora.com##.qu-zIndex--modal_desktop.qu-overflow--hidden.qu-justifyContent--center.qu-alignItems--center.q-flex
+www.quora.com##div.q-box.qu-overflow--hidden:style(position: unset !important; filter: none !important;)
+
 !Make Arduino help pages fit within a 960px-wide window
 arduino.cc###pagenav:style(margin-right: 0px)
 arduino.cc###pagetext:style(width: 697px !important)
+
+!Reduce horizontal padding on stackexchange so it works better at half-width of a 1920x1080 screen
+stackexchange.com###content:style(padding: 0px; margin: 0 0 !important)
+stackexchange.com##.votecell:style(padding-right: 0px)
+stackexchange.com##.vote:style(min-width: 40px !important)
+stackexchange.com###sidebar:style(float: left)
+stackexchange.com###mainbar:style(width: 710px)
+stackexchange.com###answers-header:style(width: 700px)
+stackexchange.com##.answer-votes:style(min-width: 20px; width: 20px !important)
+stackexchange.com##.spacer>a:first-child:style(padding-right: 8px !important)
+
+! 2021-01-25 https://stackoverflow.com
+stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+stackoverflow.com##.s-sidebarwidget.mb16
+stackoverflow.com###hot-network-questions
+stackoverflow.com###feed-link
+stackexchange.com##.s-sidebarwidget.mb16
+stackexchange.com###hot-network-questions
+stackexchange.com###feed-link
+superuser.com##.s-sidebarwidget.mb16
+superuser.com###hot-network-questions
+superuser.com###feed-link
+3dprinting.stackexchange.com##.js-consent-banner
+
+! 2021-02-12 https://hackaday.com
+hackaday.com###hackadayfeed-2
+hackaday.com###recent-comments-2
+hackaday.com##.cookie-notifications
+
+www.thingiverse.com##div[class^="AdCard__card"]
+
+! 2021-02-24 https://medium.com
+medium.com###credential_picker_container
